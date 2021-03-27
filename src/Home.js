@@ -56,23 +56,23 @@ function Home() {
 export default Home;
 
 const Container = styled.div`
-	max-width: 1500px;
+	max-width: 100%;
 	margin: 0 auto;
 `;
 
 const Banner = styled.div`
-	background-image: url('https://i.imgur.com/SYHeuYM.jpg');
-	min-height: 600px;
+	background-image: url('https://m.media-amazon.com/images/G/01/digital/video/sonata/US_SVOD_NonPrime_Banner/f69c4124-8751-4646-b8de-14e68f14ff8e._UR3000,600_SX1500_FMwebp_.jpg');
+	min-height: 250px;
 	background-position: center;
 	background-size: cover;
 	z-index: 1;
-	mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+	mask-image: linear-gradient(to bottom, rgba(0, 0, 2, 1), rgba(0, 0, 0, 0));
 `;
 
 const Content = styled.div`
 	padding-left: 10px;
 	padding-right: 10px;
-	margin-top: -350px;
+	margin-top: -1px;
 	display: flex;
 `;
 
