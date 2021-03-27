@@ -66,9 +66,9 @@ const Banner = styled.div`
 	background-position: center;
 	background-size: cover;
 	z-index: 1;
-	mask-image: linear-gradient(to bottom, rgba(0, 0, 2, 1), rgba(0, 0, 0, 0));
+	mask-image: linear-gradient(to bottom, rgba(0, 0, 2, 2), rgba(0, 0, 0, 0));
 `;
-
+//mask-image: linear-gradient(to bottom, rgba(0, 0, 2, 1), rgba(0, 0, 0, 0));
 const Content = styled.div`
 	padding-left: 10px;
 	padding-right: 10px;
@@ -82,6 +82,7 @@ const ContentOne = styled.div`
     padding: 0px 7px
 	margin-top: -1px;
 	display: flex;
+   
     
 `;
 
@@ -90,4 +91,5 @@ const WrapProducts = styled.div`
 	flex-wrap: wrap;
 	justify-content: space-around;
 	width: 100%;
+	background: linear-gradient(to bottom, #ffffff 0%, #0033cc 100%);
 `;

@@ -1,22 +1,25 @@
-import React from 'react'
-import styled from 'styled-components'
-import CartItems from './CartItems'
-import CartTotal from './CartTotal'
+import React from 'react';
+import styled from 'styled-components';
+import CartItems from './CartItems';
+import CartTotal from './CartTotal';
 
 function Cart({ cartItems }) {
-    return (
-        <Container>
-            <CartItems cartItems={cartItems}  />
-            <CartTotal />
-        </Container>
-    )
+	return (
+		<ContainerParent>
+			<Container>
+				<CartItems cartItems={cartItems} />
+				<CartTotal />
+			</Container>
+		</ContainerParent>
+	);
 }
 
-export default Cart
+export default Cart;
 
 const Container = styled.div`
-    display: flex;
-    //TRouBLe
-    padding: 14px 18px 0 18px;
-`
+	display: flex;
+	//TRouBLe
+	padding: 14px 18px 0 18px;
+`;
 
+const ContainerParent = styled.div``;

@@ -56,7 +56,7 @@ export default Header;
 
 const Container = styled.div`
 	height: 60px;
-	background-color: #0f1111;
+	background: linear-gradient(to top, #000099 50%, #0099ff 99%);
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
